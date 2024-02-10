@@ -1,0 +1,3 @@
+.btngradient{
+    background-image: linear-gradient(to bottom right, var(--primary-500), var(--secondary-500));
+}
