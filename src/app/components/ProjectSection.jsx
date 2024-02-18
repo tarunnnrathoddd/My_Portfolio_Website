@@ -10,23 +10,14 @@ const Projects = [
     id: 1,
     title: "My PortFolio",
     description: "My Portfolio made using Next.js and Tailwind CSS",
-    giturl: "https://github.com/Mastermind730/MyPortfolio",
+    giturl: "https://github.com/tarunnnrathoddd/My_Portfolio_Website",
   },
   {
     id: 2,
     title: "Plantify Ecommerce",
     description: "An Ecommerce website made using HTML, CSS, Js",
     giturl: "https://tarunnnrathoddd.github.io/plantifyyy",
-    // }, {id:3,
-    //     title:"ThinkBot",
-    //     description:"A clone of Jarvis made using Python and its awesome libraries",
-    //     giturl:"https://github.com/Mastermind730/ThinkBot"
-    // },
-    // {id:4,
-    //     title:"Steganography",
-    //     description:"A project using Python OpenCV that encrypts an message in a image using Steganography techniques and also decrypts the same and displays it",
-    //     giturl:"https://github.com/Mastermind730/Steganography"
-    // }
+
   },
 ];
 
