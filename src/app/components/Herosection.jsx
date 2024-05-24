@@ -18,11 +18,9 @@ const Herosection = () => {
           transition={{ duration: 0.5 }}
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
-
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I&apos;m{" "}
             </span>
-
             <br />
             <TypeAnimation
               sequence={[
@@ -42,18 +40,7 @@ const Herosection = () => {
           </h1>
 
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I am Tarun Rathod ,an attentive, enterprising, versatile, and a soft
-            hearted person. I am an Engineering student at Pimpri Chinchwad
-            College of Engineering, Pune, Maharashtra, with a passion for
-            user-centric design solutions and a web Enthusiast. With learning
-            attitude i have come to value the importance of user experience and
-            user interface. I am fun and empathetic person with strong
-            leadership and management skills. Including knowledge of agile
-            methodology. Aside from my design work. I enjoy playing football,
-            sketching, reading, photo editing, photography and mythology. I am
-            always Open to new connections and building relationships that we
-            can rely on. Let's connect and see where our shared passions and
-            interests take us!
+            I am Tarun Rathod, an attentive, enterprising, versatile, and soft-hearted person. I am an engineering student at Pimpri Chinchwad College of Engineering, Pune, Maharashtra, with a passion for user-centric design solutions and web development. With a learning attitude, I have come to value the importance of user experience and user interface. I am a fun and empathetic person with strong leadership and management skills, including knowledge of agile methodology. Aside from my design work, I enjoy playing football, sketching, reading, photo editing, photography, and mythology. I am always open to new connections and building relationships that we can rely on. Let's connect and see where our shared passions and interests take us!
           </p>
           <div className="buttons flex flex-col sm:flex-row">
             <Link
@@ -64,7 +51,7 @@ const Herosection = () => {
             </Link>
             <Link
               href="/"
-              className="px-1 inline-block py-1 sm:w-fit rounded-full bg-gradient-to-br from-red-600 to-blue-800 hover:bg-slate-800 text-white"
+              className="px-1 inline-block py-1 sm:w-fit rounded-full bg-gradient-to-br from-red-600 to-blue-800 text-white"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
@@ -80,7 +67,7 @@ const Herosection = () => {
         >
           <Image
             src="/images/hero-image.jpg"
-            alt="hero image"
+            alt="Tarun's portrait"
             className="absolute mt-2 mb-14 transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
             width={260}
             height={260}
