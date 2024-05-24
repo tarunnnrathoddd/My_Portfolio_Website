@@ -1,10 +1,10 @@
 "use client";
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import NavLink from "./NavLink";
 import Link from "next/link";
 import Image from "next/image";
 import MenuOverlay from "./MenuOverlay";
+
 const navLinks = [
   {
     title: "Home",
@@ -23,26 +23,24 @@ const navLinks = [
     path: "#contact",
   },
 ];
+
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
-    <nav className="fixed mx-auto top-0 right-0 bg-[#121212] bg-opacity-100 left-0 opacity-80 z-10 ">
-      <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
-        <Link
-          href={"/"}
-          className=" text-2xl md:text-4-xl lg: text-6xl sm:text-2xl"
-        >
+    <nav className="fixed top-0 left-0 right-0 z-10 bg-gradient-to-r from-primary-500 to-secondary-600 opacity-90">
+      <div className="container mx-auto flex items-center justify-between px-4 py-4">
+        <Link href={"/"} className="text-2xl md:text-4xl lg:text-6xl text-white font-bold">
           PORTFOLIO
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
-              className="flex items-center  px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
+              className="flex items-center px-3 py-2 border rounded border-white text-white hover:bg-white hover:text-black transition duration-300"
             >
               <Image
                 src="/images/menu.png"
-                alt="menu image"
+                alt="menu"
                 width={30}
                 height={20}
               />
@@ -50,11 +48,11 @@ const Navbar = () => {
           ) : (
             <button
               onClick={() => setNavbarOpen(false)}
-              className="flex items-center  px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
+              className="flex items-center px-3 py-2 border rounded border-white text-white hover:bg-white hover:text-black transition duration-300"
             >
               <Image
                 src="/images/cross.png"
-                alt="cross image"
+                alt="close"
                 width={20}
                 height={20}
               />
@@ -62,14 +60,12 @@ const Navbar = () => {
           )}
         </div>
         <div className="menu hidden md:block md:w-auto">
-          <ul className="flex p-4 gap-3 ">
-            {navLinks.map((link, index) => {
-              return (
-                <li className="text-center mx-auto" key={index}>
-                  <NavLink href={link.path} title={link.title} />
-                </li>
-              );
-            })}
+          <ul className="flex space-x-6">
+            {navLinks.map((link, index) => (
+              <li key={index}>
+                <NavLink href={link.path} title={link.title} className="text-white text-lg hover:text-gray-300 transition duration-300" />
+              </li>
+            ))}
           </ul>
         </div>
         {navbarOpen ? <MenuOverlay /> : null}
