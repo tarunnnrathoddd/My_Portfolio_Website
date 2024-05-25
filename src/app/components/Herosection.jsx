@@ -40,7 +40,18 @@ const Herosection = () => {
           </h1>
 
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I am Tarun Rathod, an attentive, enterprising, versatile, and soft-hearted person. I am an engineering student at Pimpri Chinchwad College of Engineering, Pune, Maharashtra, with a passion for user-centric design solutions and web development. With a learning attitude, I have come to value the importance of user experience and user interface. I am a fun and empathetic person with strong leadership and management skills, including knowledge of agile methodology. Aside from my design work, I enjoy playing football, sketching, reading, photo editing, photography, and mythology. I am always open to new connections and building relationships that we can rely on. Let's connect and see where our shared passions and interests take us!
+            I am Tarun Rathod, an attentive, enterprising, versatile, and
+            soft-hearted person. I am an engineering student at Pimpri Chinchwad
+            College of Engineering, Pune, Maharashtra, with a passion for
+            user-centric design solutions and web development. With a learning
+            attitude, I have come to value the importance of user experience and
+            user interface. I am a fun and empathetic person with strong
+            leadership and management skills, including knowledge of agile
+            methodology. Aside from my design work, I enjoy playing football,
+            sketching, reading, photo editing, photography, and mythology. I am
+            always open to new connections and building relationships that we
+            can rely on. Let's connect and see where our shared passions and
+            interests take us!
           </p>
           <div className="buttons flex flex-col sm:flex-row">
             <Link

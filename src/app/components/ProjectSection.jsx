@@ -19,6 +19,13 @@ const Projects = [
     giturl: "https://tarunnnrathoddd.github.io/plantifyyy",
 
   },
+  {
+    id: 3,
+    title: "Anantya - 2024",
+    description: "A College Event website made using Nextjs and Tailwind Css",
+    giturl: "https://anantya24.vercel.app/",
+
+  }
 ];
 
 const ProjectSection = () => {
