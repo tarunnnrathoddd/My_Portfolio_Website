@@ -17,7 +17,12 @@ const Projects = [
     title: "Plantify Ecommerce",
     description: "An Ecommerce website made using HTML, CSS, Js",
     giturl: "https://tarunnnrathoddd.github.io/plantifyyy",
-
+  },
+  {
+    id: 3,
+    title: "Anantya - 20224",
+    description: "A College Event website made using Nestjs and Tailwind CSS",
+    giturl: https://anantya24.vercel.app/,
   },
 ];
 
