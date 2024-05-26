@@ -20,17 +20,10 @@ const Projects = [
   },
   {
     id: 3,
-    title: "Anantya - 20224",
-    description: "A College Event website made using Nestjs and Tailwind CSS",
-    giturl: https://anantya24.vercel.app/,
-  },
-  {
-    id: 3,
     title: "Anantya - 2024",
     description: "A College Event website made using Nextjs and Tailwind Css",
     giturl: "https://anantya24.vercel.app/",
-
-  }
+  },
 ];
 
 const ProjectSection = () => {
