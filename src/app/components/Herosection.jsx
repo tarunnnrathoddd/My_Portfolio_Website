@@ -38,7 +38,6 @@ const Herosection = () => {
               repeat={Infinity}
             />
           </h1>
-
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             I am Tarun Rathod, an attentive, enterprising, versatile, and
             soft-hearted person. I am an engineering student at Pimpri Chinchwad
@@ -61,7 +60,7 @@ const Herosection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
+              href="https://drive.google.com/file/d/1TBVsNkjodwLwGQLX5kv5WCLdRpLDGEtR/view?usp=sharing"
               className="px-1 inline-block py-1 sm:w-fit rounded-full bg-gradient-to-br from-red-600 to-blue-800 text-white"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
@@ -79,7 +78,7 @@ const Herosection = () => {
           <Image
             src="/images/hero-image.jpg"
             alt="Tarun's portrait"
-            className="absolute mt-2 mb-14 transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
+            className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             width={260}
             height={260}
           />
